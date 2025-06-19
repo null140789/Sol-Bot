@@ -1,7 +1,7 @@
-  servises
+services:
   - type: worker
-  name: solana-bot            
-  env: python
-  buildCommand: pip install -r requirements.txt
-  startCommand: python bot.py
-  plan: free
+    name: solana-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    plan: free
