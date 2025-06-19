@@ -1,5 +1,5 @@
-services
-- type: worker
+servises
+  - type: worker
 name: solana-bot            
 env: python
 buildCommand: pip install -r requirements.txt
